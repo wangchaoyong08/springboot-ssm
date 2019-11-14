@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-@Mapper
+@Mapper //同时支持xml
 public interface UserMapper {
     @Select("select * from user")
     List<User> findAll();

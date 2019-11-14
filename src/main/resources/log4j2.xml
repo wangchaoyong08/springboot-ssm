@@ -64,7 +64,7 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <Root level="INFO">
+        <Root level="debug">
             <!--<AppenderRef ref="stdoutRollingFile"/>
             <AppenderRef ref="stderrRollingFile"/>-->
             <AppenderRef ref="console"/>
